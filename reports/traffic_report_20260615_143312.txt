@@ -1,0 +1,16 @@
+Smart Traffic Signal Optimizer Report
+Generated: Mon Jun 15 14:33:12 PKT 2026
+
+MINIMUM SPANNING TREE RESULT
+-----------------------------
+MST is used to select minimum road connections for city network maintenance.
+
+1. 1 <-> 2 | distance = 4
+2. 2 <-> 4 | distance = 2
+3. 2 <-> 3 | distance = 3
+4. 4 <-> 5 | distance = 3
+5. 5 <-> 6 | distance = 4
+
+Total MST Distance: 16
+
+
