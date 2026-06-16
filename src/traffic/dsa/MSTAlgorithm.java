@@ -10,7 +10,7 @@ public class MSTAlgorithm {
         if (n == 0) {
             return new MSTResult(selectedRoads, 0);
         }
-        int c=0;
+        int a=0;
 
         boolean[] visited = new boolean[n];
         visited[0] = true;

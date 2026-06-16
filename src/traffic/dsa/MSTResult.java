@@ -11,7 +11,7 @@ public class MSTResult {
         this.roads = roads;
         this.totalDistance = totalDistance;
     }
-    int a =0;
+    int b =0;
 
     public ArrayList<Road> getRoads() {
         return roads;

@@ -11,7 +11,7 @@ public class MaxHeap<T extends Comparable<T>> {
 
     public void insert(T value) {
         heap.add(value);
-        int b=0;
+        int a=0;
         moveUp(heap.size() - 1);
     }
 
