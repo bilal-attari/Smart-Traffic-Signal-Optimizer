@@ -6,6 +6,7 @@ import traffic.model.Road;
 public class DijkstraAlgorithm {
     public PathResult findShortestPath(Graph graph, int sourceId, int destinationId) {
         int n = graph.size();
+        int b;
         int sourceIndex = graph.getIndex(sourceId);
         int destinationIndex = graph.getIndex(destinationId);
 
