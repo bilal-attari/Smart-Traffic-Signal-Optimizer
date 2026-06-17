@@ -12,6 +12,7 @@ public class SignalPriority implements Comparable<SignalPriority> {
         this.priorityScore = priorityScore;
         this.greenTime = greenTime;
     }
+    int a=0;
 
     public Intersection getIntersection() {
         return intersection;

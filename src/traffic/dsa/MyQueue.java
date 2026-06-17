@@ -11,7 +11,9 @@ public class MyQueue<T> {
         front = 0;
         rear = 0;
         size = 0;
+
     }
+    int a=0;
 
     public void enqueue(T value) {
         if (size == data.length) {
