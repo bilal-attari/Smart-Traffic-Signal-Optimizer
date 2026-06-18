@@ -10,6 +10,7 @@ public class TrafficSignal {
         this.status = "RED";
         this.greenSeconds = 0;
     }
+    int a=0;
 
     public int getIntersectionId() {
         return intersectionId;

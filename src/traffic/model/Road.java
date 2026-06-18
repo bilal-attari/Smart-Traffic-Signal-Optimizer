@@ -12,6 +12,7 @@ public class Road {
         this.distance = distance;
         this.congestion = congestion;
     }
+    int a=0;
 
     public int getFromId() {
         return fromId;

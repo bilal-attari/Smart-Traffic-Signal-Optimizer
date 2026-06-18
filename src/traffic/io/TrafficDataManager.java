@@ -18,6 +18,7 @@ public class TrafficDataManager {
                 if (line.length() == 0 || line.startsWith("#")) {
                     continue;
                 }
+                int b=0;
                 String[] parts = line.split(",");
                 int id = Integer.parseInt(parts[0].trim());
                 String name = parts[1].trim();

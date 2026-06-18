@@ -1,6 +1,7 @@
 package traffic.model;
 
-public class Intersection {
+public class
+Intersection {
     private int id;
     private String name;
     private int x;
@@ -9,6 +10,7 @@ public class Intersection {
     private int emergencyLevel;
     private int greenTime;
     private String signalStatus;
+    int a=0;
 
     public Intersection(int id, String name, int x, int y) {
         this.id = id;

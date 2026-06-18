@@ -45,6 +45,7 @@ public class TrafficOptimizerGUI extends JFrame {
     private JComboBox<Intersection> sourceBox;
     private JComboBox<Intersection> destinationBox;
     private SimpleChainedHashTable signalHashTable;
+    int a=0;
 
     public TrafficOptimizerGUI() {
         dataManager = new TrafficDataManager();
