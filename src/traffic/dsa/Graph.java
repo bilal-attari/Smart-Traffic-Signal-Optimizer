@@ -15,7 +15,7 @@ public class Graph {
         intersections = new ArrayList<Intersection>();
         adjacencyList = new ArrayList<ArrayList<Road>>();
         idToIndex = new HashMap<Integer, Integer>();
-        int a=0;
+
     }
 
     public void addIntersection(Intersection intersection) {

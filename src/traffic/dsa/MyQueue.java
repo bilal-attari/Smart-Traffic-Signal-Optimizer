@@ -13,7 +13,7 @@ public class MyQueue<T> {
         size = 0;
 
     }
-    int a=0;
+
 
     public void enqueue(T value) {
         if (size == data.length) {

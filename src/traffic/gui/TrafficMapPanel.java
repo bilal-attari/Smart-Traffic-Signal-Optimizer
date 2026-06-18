@@ -28,7 +28,7 @@ public class TrafficMapPanel extends JPanel {
         if (graph == null) {
             return;
         }
-        int b=0;
+
 
 
         Graphics2D g2 = (Graphics2D) g;

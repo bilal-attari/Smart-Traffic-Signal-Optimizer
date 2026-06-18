@@ -14,7 +14,7 @@ public class PathResult {
     public ArrayList<Integer> getPath() {
         return path;
     }
-    int z=0;
+
     public int getDistance() {
         return distance;
     }

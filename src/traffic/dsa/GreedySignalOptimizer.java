@@ -8,7 +8,7 @@ public class GreedySignalOptimizer {
         MyQueue<Intersection> waitingQueue = new MyQueue<Intersection>();
         MaxHeap<SignalPriority> priorityHeap = new MaxHeap<SignalPriority>();
         ArrayList<SignalPriority> finalOrder = new ArrayList<SignalPriority>();
-        int b=0;
+
 
         for (int i = 0; i < graph.getIntersections().size(); i++) {
             Intersection intersection = graph.getIntersections().get(i);
